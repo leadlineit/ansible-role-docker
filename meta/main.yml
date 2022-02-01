@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  role_name: docker
+  namespace: 6nsh
+  author: Artem Kasianchuk
+  description: Install and configure Docker
+  license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
+        - stretch
+  galaxy_tags:
+    - system
+    - debian
+    - docker
