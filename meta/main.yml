@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: docker
-  namespace: 6nsh
+  namespace: leadlineit
   author: Artem Kasianchuk
   description: Install and configure Docker
   license: MIT
@@ -9,8 +9,8 @@ galaxy_info:
   platforms:
     - name: Debian
       versions:
-        - buster
         - bullseye
+        - buster
         - stretch
   galaxy_tags:
     - system
