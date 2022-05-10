@@ -1,18 +1,10 @@
 ---
-# handlers file for docker
-
-# - name: check docker version
-#   shell: docker -v
-
 - name: enable docker service
-  service:
+  ansible.builtin.service:
     name: docker
     enabled: true
 
-# - name: check docker service status
-#   shell: systemctl status docker
-
-- name: restart docker
-  service:
+- name: restart docker service
+  ansible.builtin.service:
     name: docker
     state: restarted

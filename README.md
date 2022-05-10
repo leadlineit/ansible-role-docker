@@ -1,6 +1,7 @@
 # Ansible Role Docker
 
 ![Build Status](https://github.com/leadlineit/ansible-role-docker/actions/workflows/ansible-galaxy-ci.yml/badge.svg)
+[![Galaxy Role](https://img.shields.io/badge/Ansible--Galaxy-leadlineit.docker-blue.svg?logo=ansible&logoColor=white)](https://galaxy.ansible.com/leadlineit/docker/)
 
 This role helps to install and configure Docker to Debian (buster/bullseye).
 
@@ -25,9 +26,9 @@ Example Playbook
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
 ```yaml
-    - hosts: servers
-      roles:
-         - { role: leadlineit.docker, tags: docker }
+- hosts: servers
+  roles:
+    - { role: leadlineit.docker, tags: docker }
 ```
 
 License
